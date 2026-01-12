@@ -1,0 +1,13 @@
+{
+  "name": "invitation-code-system",
+  "version": "1.0.0",
+  "description": "邀请码生成系统",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd backend && npm install && npm start",
+    "dev": "concurrently \"cd backend && npm install && npm start\" \"cd frontend && npm install && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
