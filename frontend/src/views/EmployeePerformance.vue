@@ -151,7 +151,7 @@ import axios from 'axios'
 
 // 创建API请求实例
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: '/api',
 });
 
 // 添加请求拦截器，自动添加认证token

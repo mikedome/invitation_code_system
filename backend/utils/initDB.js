@@ -13,7 +13,7 @@ async function initDB() {
     // 同步表结构（只更新，不删除）
     await sequelize.sync({
       force: false, // 不强制删除表
-      alter: true   // 自动修改表结构
+      alter: false   // 自动修改表结构
     });
     console.log('数据库表结构同步成功');
     
